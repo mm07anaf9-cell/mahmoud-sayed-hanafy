@@ -31,7 +31,7 @@ width: 100%;
     margin: auto;
     position: sticky;
     top: 0;
-    z-index: 1000;
+   
 }
 nav a {
     width: auto;
@@ -48,27 +48,23 @@ nav a {
  a:hover {    background-color: #4a5b6e;
     color: #197cb6;
     border: 5px solid #878f99;
-    transition-duration: 0.5s;
-        transform: translateY(-3px);
     }
     a{
     background-color: #878f99;
     font-size: 15px;
     font-weight: 400;
-    transition-duration: 0.5s;
     }
     h1 {
         color: #2271d8;
         font-size: 35px;
         text-align: left;
-         animation: slideDown 1s ease;
     }
     p{
         color: #fffff7;
         font-size: 23px;
         justify-content: space-between;
     }
-     footer{
+    footer{
         background-color:#878f99;
         color: #878f99;
         text-align: center;
@@ -99,9 +95,6 @@ th, td {
 tr:nth-child(even) {
     background-color: #525657;
 }
-tr{
-     transition: 0.3s;
-}
 tr:hover {
         transform: scale(1.02);
 }
@@ -114,7 +107,6 @@ form{
     width: 40%;
     height: 300px;
     border-radius: 50px;
-    right:25%;
     margin:  50px auto;
 }
 label{
@@ -126,7 +118,6 @@ label:hover{
     background-color: #336baf;
     font-size: 15px;
     font-weight: 300;
-    transition-duration: 0.5s;
     border: none;
     padding: 10px 20px;
     color: #0d0d0d;
@@ -150,7 +141,6 @@ label:hover{
     border: none;
     padding: 10px 10px;
     border-radius: 20px;
-    transition-duration: 0.5s;
 }
 h1{
     color: #08527d;
@@ -176,12 +166,4 @@ h1{
     font-size: 14px;
     padding: 15px;
   }
-}
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1
-    }
 }
